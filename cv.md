@@ -15,7 +15,7 @@
 * VS Code
 * Python
 * Machine Learning (ML)
-## Code Example
+## Code Examplecheckout
 ```
 def GeoDist_km(lat1, lon1, lat2, lon2, **kwarg):
     R = 6371.0088
