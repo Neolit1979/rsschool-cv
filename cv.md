@@ -22,7 +22,7 @@
 * Postgraduate study at BSUIR - Radio engineering incl. systems and devices for radio navigation, radar and television
 
 ### Courses:
-* ![Introduction to Machine Learning](https://app.rs.school/certificate/uv6h59vo) 
+* Introduction to Machine Learning - RS School
 
 ## Languages:
 * English - Intermediate    
