@@ -13,6 +13,10 @@ body {
 
   }
 
+  .header{
+    background-color: #8dbdf3;
+  }
+  
   .block1{
     padding: 30px 30px;
     margin: 10px;
@@ -50,3 +54,22 @@ body {
       font-family: monospace;
       white-space: pre;
   }
+  
+  .footer {
+    background-color: #8dbdf3;
+    padding: 20px;
+  }
+
+  .sec-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+  }
+  
+  .rss {
+    width: 121px;
+    height: 45px;
+    background-image: url(./assets/svg/rs_school_js.svg);
+    
+}
