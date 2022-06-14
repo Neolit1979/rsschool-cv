@@ -49,6 +49,21 @@
                     <li> Machine Learning (ML)</li>
                   </ul>
             </section>
+            <section class="sec-contacts">
+                <h2 class="sec-title">Code Example</h2>
+                <pre class="showcode">
+                    <code>
+                        def GeoDist_km(lat1, lon1, lat2, lon2, **kwarg):
+                            R = 6371.0088
+                            lat1,lon1,lat2,lon2 = map(np.radians, [lat1,lon1,lat2,lon2])
+                            dlon = lon2 - lon1
+                            dlat = lat2 - lat1
+                            a = np.sin(dlat / 2)**2 + np.cos(lat1) * np.cos(lat2) * np.sin(dlon / 2)**2
+                            c = 2 * np.arctan2(np.sqrt(a), np.sqrt(1 - a))
+                        return R * c 
+                    </code>
+                </pre>
+            </section>
         </div>
 
     </main>
